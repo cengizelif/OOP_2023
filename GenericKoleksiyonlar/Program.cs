@@ -110,6 +110,15 @@ namespace GenericKoleksiyonlar
             //3.yol
             kullanicilar.ForEach(i => Console.WriteLine(i.kullaniciAdi));
 
+
+            Musteri<int> m1 = new Musteri<int>();
+            m1.Id = 1;
+            m1.musterino = 2;
+            m1.isim = "";
+            m1.soyisim = "";
+
+            GenericClass<kullanici> g1 = new GenericClass<kullanici>();
+
             Console.ReadLine();
         }
     }

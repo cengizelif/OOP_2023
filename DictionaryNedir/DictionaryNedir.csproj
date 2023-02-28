@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{751EC7C9-BE56-4D8C-9B46-1CB400089600}</ProjectGuid>
+    <ProjectGuid>{EA672ED4-B9A1-47D5-93F2-784394BC9086}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GenericKoleksiyonlar</RootNamespace>
-    <AssemblyName>GenericKoleksiyonlar</AssemblyName>
+    <RootNamespace>DictionaryNedir</RootNamespace>
+    <AssemblyName>DictionaryNedir</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenericClass.cs" />
-    <Compile Include="kullanici.cs" />
-    <Compile Include="Musteri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
